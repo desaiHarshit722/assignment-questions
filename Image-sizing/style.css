@@ -1,0 +1,24 @@
+.img-cont img{
+    height: 300px;
+    width: 300px;
+
+}
+.img-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.4s ease all;
+}
+.btn-cont{
+    display: flex;
+    gap: 23px;
+    font-size: 34px;
+}
+.btn-cont button{
+    font-size: 30px;
+    margin-top: 80px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 23px;
+    height: 100vh;
+}
+.container .btn-container{
+    display: flex;
+    gap: 23px;
+}
+button{
+    padding: 11px 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: purple;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+#inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner span{
+    font-size: 53px;
+}
+.black{
+    background-color: red;
+    color: white;  
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+#like-btn{
+    border-radius: 12px;
+    
+}
