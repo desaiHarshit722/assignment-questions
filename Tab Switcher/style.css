@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    
+}
+.btn-container button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.container p{
+    text-align: center;
+}
